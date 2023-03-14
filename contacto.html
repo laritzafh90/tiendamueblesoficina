@@ -1,0 +1,112 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Tienda de Muebles de Oficina</title>
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="imagenes/logo.webp" alt="logo" title="logo" />
+        </figure>
+        <h1>La Imagen de su Oficina</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="inicio.html">Inicio</a>
+            </li>
+            <li>
+                <a href="quienessomos.html">Quiénes Somos</a>
+            </li>
+            <li>
+                <a href="novedades.html">Novedades</a>
+            </li>
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Contacto</h3>
+        <form name="formulario" class="contact_form" id="formulario" method="post">
+            Nombre*:
+            <input type="text" name="nombre" id="nombre" required="" class="form-control">
+            Teléfono*:
+            <input name="phone" type="text" id="phone" class="form-control" required="">
+            Correo Electrónico*:
+            <input name="email" id="email" class="form-control" required="">
+            Población*:
+            <input name="poblacion" type="text" id="poblacion" required="" class="form-control">
+            Provincia:
+            <select id="provincia" name="provincia" tabindex="0" class="form-control form-control-select">
+                <option value="" selected="">Seleccione </option>
+                <option value="Alava">Alava </option>
+                <option value="Albacete">Albacete </option>
+                <option value="Alicante">Alicante </option>
+                <option value="Almeria">Almeria </option>
+                <option value="Asturias">Asturias </option>
+                <option value="Avila">Avila </option>
+                <option value="Badajoz">Badajoz </option>
+                <option value="Baleares">Baleares </option>
+                <option value="Barcelona">Barcelona </option>
+                <option value="Burgos">Burgos </option>
+                <option value="Caceres">Caceres </option>
+                <option value="Cadiz">Cadiz </option>
+                <option value="Cantabria">Cantabria </option>
+                <option value="Castellón">Castellón </option>
+                <option value="Ceuta">Ceuta </option>
+                <option value="Ciudad Real">Ciudad Real </option>
+                <option value="Córdoba">Córdoba </option>
+                <option value="Coruña">Coruña </option>
+                <option value="Cuenca">Cuenca </option>
+                <option value="Girona">Girona </option>
+                <option value="Granada">Granada </option>
+                <option value="Guadalajara">Guadalajara </option>
+                <option value="Huesca">Huesca </option>
+                <option value="Gipuzkoa">Gipuzkoa </option>
+                <option value="Huelva">Huelva </option>
+                <option value="Jaen">Jaen </option>
+                <option value="Leon">Leon </option>
+                <option value="La Rioja">La Rioja </option>
+                <option value="Lleida">Lleida </option>
+                <option value="Lugo">Lugo </option>
+                <option value="Madrid">Madrid </option>
+                <option value="Málaga">Málaga </option>
+                <option value="Melilla">Melilla </option>
+                <option value="Murcia">Murcia </option>
+                <option value="Navarra">Navarra </option>
+                <option value="Orense">Orense </option>
+                <option value="Palencia">Palencia </option>
+                <option value="Palmas, Las">Palmas, Las</option>
+                <option value="Pontevedra">Pontevedra </option>
+                <option value="Salamanca">Salamanca </option>
+                <option value="Sta.Cruz Tenerife">Sta.Cruz Tenerife</option>
+                <option value="Segovia">Segovia </option>
+                <option value="Sevilla">Sevilla </option>
+                <option value="Soria">Soria </option>
+                <option value="Tarragona">Tarragona </option>
+                <option value="Teruel">Teruel </option>
+                <option value="Toledo">Toledo </option>
+                <option value="Valencia">Valencia </option>
+                <option value="Valladolid">Valladolid </option>
+                <option value="Vizcaya">Vizcaya </option>
+                <option value="Zamora">Zamora</option>
+                <option value="Zaragoza">Zaragoza</option>
+            </select>
+            Mensaje:
+            <textarea name="message" cols="40" rows="3" class="form-control" id="message"></textarea>
+            <input name="privacidad" type="checkbox" id="privacidad" required=""> Acepto la <a href="#">Politica de
+                Privacidad</a><br>
+            <br>
+            <input name="submit" type="submit" class="form-control" id="submit" value="ENVIAR">
+        </form>
+    </main>
+    <footer>
+        <p>Hecho por</p>
+    </footer>
+</body>
+
+</html>
