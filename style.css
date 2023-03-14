@@ -83,6 +83,23 @@ h3{
     transform-style: preserve-3d;
 }
 
+.imgsomos {
+    width: 300px;
+
+}
+
+.somos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    
+}
+
+
+
+
+
 /*FOOTER*/
 footer{
     margin-top: 1%;
@@ -91,3 +108,6 @@ footer{
 footer>p{
     text-align: right;
 }
+
+
+
