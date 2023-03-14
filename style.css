@@ -1,0 +1,67 @@
+body{
+    border: 1px solid black;
+    padding: 0.5%;
+    width: 95%;
+    margin: auto;
+}
+figure>img{
+    width: 95%;
+    margin: auto;
+}
+header, main, footer, nav>form, nav>ul{
+    border: 1px solid black;
+}
+
+/*HEADER*/
+header{
+    display: flex;
+}
+header>figure{
+    flex: 1;
+}
+header>h1{
+    flex: 8;
+    text-align: center;
+    font-size: 5vw;
+}
+/*NAV*/
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav>ul{
+    flex: 6;
+    display: flex;
+    min-width: 400px;
+    margin-right: 1%;
+    text-align: center;
+}
+nav>ul>li{
+    list-style: none;
+    padding: 2% 4% 2% 2%;
+}
+
+/*MAIN*/
+main{
+    padding: 1%;
+}
+p{
+    text-align: justify;
+}
+section{
+    display: flex;
+}
+section>p{
+    flex: 6;
+}
+
+
+
+/*FOOTER*/
+footer{
+    margin-top: 1%;
+    padding: 3%;
+}
+footer>p{
+    text-align: right;
+}
