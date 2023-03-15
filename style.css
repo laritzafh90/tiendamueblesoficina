@@ -88,13 +88,22 @@ h2{
 
 }
 
+
 .somos, .novedades {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: antiquewhite;
-    
+    background-color: antiquewhite;    
 }
+
+.novedades>figure{
+    flex: 1;
+}
+
+.novedades>p{
+    flex: 3;
+}
+
 
 .form-control {
     color: #acaaa6;
